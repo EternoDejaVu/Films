@@ -77,3 +77,4 @@ public class FilmsManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+}
