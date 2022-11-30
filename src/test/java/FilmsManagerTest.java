@@ -80,7 +80,7 @@ public class FilmsManagerTest {
 
     @Test
     public void ShouldFindLastWhenOverTheLimit() {
-        FilmsManager manager = new FilmsManager(10);
+        FilmsManager manager = new FilmsManager(12);
 
         manager.add("film1");
         manager.add("film2");
